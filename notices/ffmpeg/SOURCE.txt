@@ -1,0 +1,27 @@
+FFmpeg for Tanken
+=================
+
+These ffmpeg.exe and ffprobe.exe are an unmodified static Windows build of
+FFmpeg made by BtbN's FFmpeg-Builds, redistributed by Tanken so it can play
+videos the built-in player cannot. Tanken runs them as separate programs.
+
+  Version:  ffmpeg version N-125515-g35f8f4bdc0-20260710
+  License:  GNU General Public License, version 3 (built with --enable-gpl
+            --enable-version3); the full text is in COPYING.GPLv3.txt.
+
+Complete corresponding source
+-----------------------------
+
+FFmpeg, at the exact commit this build was made from:
+  https://github.com/FFmpeg/FFmpeg/tree/35f8f4bdc075db1ae63d999edf7ae682fcaf3cf7
+
+The build scripts, which pin the source version of every library linked into
+this build (x264, x265, libvpx, dav1d, ...) and its configuration:
+  https://github.com/BtbN/FFmpeg-Builds/tree/ca65803800fa316b49813e653e57b45808cfc087
+
+The full configure line is printed by `ffmpeg -version`.
+
+If any of these links stop working, ask for the source through Tanken's
+downloads repository (https://github.com/SeraphofNineball/tanken-components/issues) and it
+will be provided, as the GPL requires, for at least three years from the date
+this build was published.

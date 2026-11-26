@@ -1,0 +1,5 @@
+NAStree scanner for Tanken
+==========================
+
+nastree.exe is the disk-usage scanner behind Tanken's Disk Usage page, built
+from https://github.com/SeraphofNineball/nastree.
